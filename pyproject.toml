@@ -1,0 +1,12 @@
+[project]
+name = "pytalist"
+version = "0.1"
+description = "CLI for data analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+
+authors = [
+    { name = "Martin Ariza", email="martin.ariza.camargo@gmail.com"}
+]
+
+keywords = ["python", "cli", "data", "analysis", "csv"]
