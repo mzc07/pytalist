@@ -8,17 +8,20 @@ license-files = ["LICENSE"]
 requires-python = ">=3.11"
 
 authors = [
-    { name = "Martin Ariza", email="martin.ariza.camargo@gmail.com"}
+    { name = "Martin Ariza", email = "martin.ariza.camargo@gmail.com" }
 ]
 
 keywords = ["python", "cli", "data", "analysis", "csv"]
 
 [project.scripts]
-pytalist = "main:main"
+pytalist = "pytalist.main:main"
 
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["samples*"]
 
 [tool.ruff]
 target-version = "py311"
