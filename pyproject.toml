@@ -17,7 +17,7 @@ keywords = ["python", "cli", "data", "analysis", "csv"]
 pytalist = "pytalist.main:main"
 
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=61", "csv", "argparse"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
